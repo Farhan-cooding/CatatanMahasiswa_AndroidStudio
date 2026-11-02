@@ -28,5 +28,19 @@ Bagi teman-teman yang ingin menjalankan project ini di Android Studio masing-mas
 3. Buka file `MainActivity.kt` di folder `app/src/main/java/com/example/catatanmahasiswa/`.
 4. Pilih emulator/device kamu, lalu klik tombol **Play (Run)** 🟢 di bagian atas.
 
+### TUGAS: Presentasi
+1. Menambahkan Kategori Baru Bernama "Kelas"
+   Script : private val categories = listOf(
+    "Semua", "Perkuliahan", "Tugas", "Pribadi", **"Kelas"**
+)
+2. Menambahkan Isi Koten baru Pada Kategori "Kelas", Penambahan Data Catatan Dummy (sampleNotes)
+   Script : Note(
+        5, "Jadwal Pengganti", "Kelas",
+        "Kuliah pengganti ruang Lab 3 hari Rabu jam 13.00, membawa laptop masing-masing.",
+        "Hari ini"
+    )
+4. Memberi warna berbeda pada bagian Konten baru
+   Script : private val Teal = Color(0xFFE53935) #Merah
+
 ---
 ✨ *Dibuat untuk memenuhi Tugas Pertemuan 4 - Desain UI Aplikasi dengan Jetpack Compose.*
